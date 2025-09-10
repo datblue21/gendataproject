@@ -60,7 +60,7 @@ def get_next_log_file():
 
 def load_last_processed_ids(log_file, n=3):
     """Chỉ lấy 2-3 dòng cuối có id đã xử lý từ file log"""
-    processed_ids = set()
+    max_id = None
     if log_file and os.path.exists(log_file):
         with open(log_file, 'r', encoding='utf-8') as f:
             lines = f.readlines()
@@ -69,10 +69,12 @@ def load_last_processed_ids(log_file, n=3):
         for line in last_lines:
             try:
                 id_str = line.split('✔ id=')[1].split()[0]
-                processed_ids.add(int(id_str))
+                id_val = int(id_str)
+                if (max_id is None) or (id_val > max_id):
+                    max_id = id_val
             except Exception:
                 continue
-    return processed_ids
+    return max_id
 
 
 def log_progress(message, log_file):
@@ -136,13 +138,15 @@ def main():
                             continue
         return processed_ids
 
-    processed_ids = load_all_processed_ids(latest_log)
-    log_progress(f"Bắt đầu xử lý. Đã có {len(processed_ids)} địa chỉ được xử lý từ trước.", LOG_FILE)
+    # processed_ids = load_all_processed_ids(latest_log)
+
+    last_id = load_last_processed_ids(latest_log, n=20)  # n tuỳ ý, lấy 20 dòng cuối để chắc chắn
+    log_progress(f"Bắt đầu xử lý. Đã có id cuối cùng: {last_id}", LOG_FILE)
 
     with open(INPUT_FILE, newline='', encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
         for row in reader:
-            if int(row["id"]) in processed_ids:
+            if last_id is not None and int(row["id"]) <= last_id:
                 continue
             addr_id = row["id"]
             lat = row["latitude"]

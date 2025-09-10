@@ -1,0 +1,16 @@
+[2025-09-10 13:56:15] Bắt đầu xử lý. Đã có id cuối cùng: 26807
+[2025-09-10 13:56:16] ✔ id=26808 → Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:18] ✔ id=26809 → Đường Xuân Thới Sơn 3, Xã Xuân Thới Sơn, Thành phố Hồ Chí Minh, Việt Nam
+[2025-09-10 13:56:21] ✔ id=26810 → Căn Hộ Chung Cư 8X Plus, 163A, Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:23] ✔ id=26811 → Co.opmart Thắng Lợi, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:25] ✔ id=26812 → Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:27] ✔ id=26813 → Hẻm 27 Âu Dương Lân, Phường Chánh Hưng, Thành phố Hồ Chí Minh, 72760, Việt Nam
+[2025-09-10 13:56:29] ✔ id=26814 → Leontina Apartment, 11/25, Nguyễn Đức Thuận, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam
+[2025-09-10 13:56:31] ✔ id=26815 → Sơn Kỳ, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam
+[2025-09-10 13:56:33] ✔ id=26816 → Hẻm 763/2/18 Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 70500, Việt Nam
+[2025-09-10 13:56:35] ✔ id=26817 → Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:37] ✔ id=26818 → Bình Hòa 11, Bình Đức 1, Phường Bình Hòa, Thuận An, Thành phố Hồ Chí Minh, 75214, Việt Nam
+[2025-09-10 13:56:39] ✔ id=26819 → Tân Thới Nhất 17, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:41] ✔ id=26820 → VĐ. bảo vệ sân bay, Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam
+[2025-09-10 13:56:43] ✔ id=26821 → Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 13:56:45] ✔ id=26822 → Huỳnh Tấn Chùa, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
