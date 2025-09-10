@@ -1,5 +1,5 @@
 venv/
 process_log_copy.txt
-sql_output2/
-sql_output3/
+# sql_output1/
+# sql_output2/
 .DS_Store
