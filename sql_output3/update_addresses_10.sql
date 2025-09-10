@@ -1,300 +1,300 @@
 UPDATE delivery_tracking 
-SET location = 'Hẻm 46 Đường Nguyễn Đỗ Cung, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11304;
+SET location = 'Dương Thị Giang, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26108;
 UPDATE delivery_tracking 
-SET location = 'Khu công nghiệp Tân Bình, 906, Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11305;
-UPDATE delivery_tracking 
-SET location = 'Phường Thới An, Thành phố Hồ Chí Minh, 71514, Việt Nam'
-WHERE id = 11306;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 118/127A Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11307;
-UPDATE delivery_tracking 
-SET location = 'Huỳnh Tấn Chùa, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11308;
-UPDATE delivery_tracking 
-SET location = 'Công Ty CP Kỹ Nghệ Thực Phẩm Vifon Việt Nam, 913, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11309;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 49/2 Khánh Hội, Vĩnh Hội, Phường Vĩnh Hội, Thành phố Hồ Chí Minh, 72800, Việt Nam'
-WHERE id = 11310;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 61 Đông Hưng Thuận 3, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11311;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 464/13 Nguyễn Văn Quá, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11312;
-UPDATE delivery_tracking 
-SET location = 'Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11313;
-UPDATE delivery_tracking 
-SET location = 'Dệt Thành Công, 8, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11314;
-UPDATE delivery_tracking 
-SET location = '28, Bùi Tư Toàn, Phường An Lạc, Thành phố Hồ Chí Minh, 71910, Việt Nam'
-WHERE id = 11315;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 196 Tân Sơn Nhì, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11316;
-UPDATE delivery_tracking 
-SET location = 'Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11317;
-UPDATE delivery_tracking 
-SET location = 'Xã Tân Nhựt, Thành phố Hồ Chí Minh, Việt Nam'
-WHERE id = 11318;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 70 Đường Trần Văn Ơn, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11319;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 1 Đường Song Hành Quốc Lộ 22, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11320;
-UPDATE delivery_tracking 
-SET location = 'Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11321;
-UPDATE delivery_tracking 
-SET location = 'Võ Văn Kiệt, Phường Bình Phú, Thành phố Hồ Chí Minh, 71959, Việt Nam'
-WHERE id = 11322;
-UPDATE delivery_tracking 
-SET location = 'Trung tâm hội nghị tiệc cưới The Whitehouse, 256, Tân Chánh Hiệp 36, Phường Trung Mỹ Tây, Thành phố Hồ Chí Minh, 71507, Việt Nam'
-WHERE id = 11323;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 42 Đồng Xoài, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11324;
-UPDATE delivery_tracking 
-SET location = 'Huỳnh Tấn Chùa, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11325;
+SET location = 'Hẻm 106 Đường Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26109;
 UPDATE delivery_tracking 
 SET location = 'Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11326;
+WHERE id = 26110;
 UPDATE delivery_tracking 
-SET location = 'Phường An Lạc, Thành phố Hồ Chí Minh, 73118, Việt Nam'
-WHERE id = 11327;
-UPDATE delivery_tracking 
-SET location = 'Phường Trung Mỹ Tây, Thành phố Hồ Chí Minh, 71716, Việt Nam'
-WHERE id = 11328;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 78 Phan Đình Phùng, Phường Phú Thọ Hòa, Thành phố Hồ Chí Minh, 72012, Việt Nam'
-WHERE id = 11329;
-UPDATE delivery_tracking 
-SET location = 'Trường Tiểu học Yên Thế, 31, Núi Thành, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11330;
-UPDATE delivery_tracking 
-SET location = 'Phường Tân Sơn, Thành phố Hồ Chí Minh, 72100, Việt Nam'
-WHERE id = 11331;
-UPDATE delivery_tracking 
-SET location = 'Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11332;
-UPDATE delivery_tracking 
-SET location = 'Đình Tân Trụ, Nguyễn Phúc Chu, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11333;
-UPDATE delivery_tracking 
-SET location = 'Khu công nghiệp Tân Bình, 906, Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11334;
-UPDATE delivery_tracking 
-SET location = 'Phường Bình Phú, Thành phố Hồ Chí Minh, 71959, Việt Nam'
-WHERE id = 11335;
-UPDATE delivery_tracking 
-SET location = 'Phường Tân Thới Hiệp, Thành phố Hồ Chí Minh, 71507, Việt Nam'
-WHERE id = 11336;
-UPDATE delivery_tracking 
-SET location = 'Đường CN1, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71913, Việt Nam'
-WHERE id = 11337;
-UPDATE delivery_tracking 
-SET location = 'Tân Sơn, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11338;
-UPDATE delivery_tracking 
-SET location = 'Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11339;
-UPDATE delivery_tracking 
-SET location = 'Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11340;
-UPDATE delivery_tracking 
-SET location = 'Long Thới, Phường Lái Thiêu, Thuận An, Thành phố Hồ Chí Minh, 70000, Việt Nam'
-WHERE id = 11341;
-UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
-WHERE id = 11342;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 224 Đường số 8, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 71913, Việt Nam'
-WHERE id = 11343;
+SET location = 'Hẻm 54 Ấp Tiền Lân - Phan Văn Hớn, Xã Bà Điểm, Thành phố Hồ Chí Minh, 71914, Việt Nam'
+WHERE id = 26111;
 UPDATE delivery_tracking 
 SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11344;
+WHERE id = 26112;
 UPDATE delivery_tracking 
-SET location = '102/21A, Hẻm 102 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11345;
+SET location = 'Lối vào Nhà để xe T3, Phường Tân Sơn Nhất, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26113;
 UPDATE delivery_tracking 
-SET location = 'Nguyễn Phúc Chu, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11346;
+SET location = 'Hẻm 11 Dương Đức Hiền, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72011, Việt Nam'
+WHERE id = 26114;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 57 Đông Hưng Thuận 10B, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26115;
+UPDATE delivery_tracking 
+SET location = 'Trường THCS - THPT Pathway Tuệ Đức - Cơ sở Nguyễn Sỹ Sách, Quận Tân Bình, 75/18, Hẻm 75 Nguyễn Sỹ Sách, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26116;
+UPDATE delivery_tracking 
+SET location = 'Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26117;
+UPDATE delivery_tracking 
+SET location = 'Phường Tân Tạo, Thành phố Hồ Chí Minh, 71959, Việt Nam'
+WHERE id = 26118;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 390 Phạm Văn Bạch, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26119;
+UPDATE delivery_tracking 
+SET location = '27, Hẻm 25 Lê Văn Thọ, Phường Thông Tây Hội, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26120;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 763/5 Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26121;
+UPDATE delivery_tracking 
+SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26122;
 UPDATE delivery_tracking 
 SET location = 'Hẻm 8 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11347;
+WHERE id = 26123;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 63 Lý Chiêu Hoàng, Phường Bình Phú, Thành phố Hồ Chí Minh, 71910, Việt Nam'
-WHERE id = 11348;
+SET location = 'Xã Bà Điểm, Thành phố Hồ Chí Minh, 71821, Việt Nam'
+WHERE id = 26124;
 UPDATE delivery_tracking 
-SET location = 'Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 71913, Việt Nam'
-WHERE id = 11349;
+SET location = 'Đường số 7, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 71913, Việt Nam'
+WHERE id = 26125;
 UPDATE delivery_tracking 
-SET location = 'Đường Nguyễn Văn Săng, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11350;
+SET location = 'Hẻm 86 Đường số 14, Phường Thông Tây Hội, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26126;
 UPDATE delivery_tracking 
-SET location = 'Đường Đông Lân 12, Xã Bà Điểm, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11351;
+SET location = 'Hẻm 20 Tân Quý, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam'
+WHERE id = 26127;
 UPDATE delivery_tracking 
-SET location = 'Trường THPT Tây Thạnh, 27, Đường C2, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71913, Việt Nam'
-WHERE id = 11352;
+SET location = 'Hẻm 533/12 Phạm Văn Bạch, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26128;
 UPDATE delivery_tracking 
-SET location = 'Domino''s, Phan Huy ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11353;
+SET location = 'Hẻm 83 Phạm Văn Bạch, Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26129;
 UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71914, Việt Nam'
-WHERE id = 11354;
+SET location = 'Hẻm 118/22 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26130;
 UPDATE delivery_tracking 
-SET location = 'Đường A75, Phường Tân Sơn Hòa, Thành phố Hồ Chí Minh, 72100, Việt Nam'
-WHERE id = 11355;
+SET location = 'Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26131;
 UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11356;
+SET location = 'Sân bay quốc tế Tân Sơn Nhất, Hẻm 499/6/96 Đường Quang Trung, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam'
+WHERE id = 26132;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 25/33 Bùi Quang Là, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
-WHERE id = 11357;
-UPDATE delivery_tracking 
-SET location = 'Tân Thới Nhất 25, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71914, Việt Nam'
-WHERE id = 11358;
-UPDATE delivery_tracking 
-SET location = 'Phạm Văn Bạch, Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11359;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 66/2 Đường Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11360;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 936 Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11361;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 174/27 Ấp Đông 2, Xã Đông Thạnh, Thành phố Hồ Chí Minh, 71716, Việt Nam'
-WHERE id = 11362;
-UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11363;
-UPDATE delivery_tracking 
-SET location = 'Đông Hưng Thuận 42, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11364;
-UPDATE delivery_tracking 
-SET location = 'Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11365;
-UPDATE delivery_tracking 
-SET location = 'Xã Xuân Thới Sơn, Thành phố Hồ Chí Minh, Việt Nam'
-WHERE id = 11366;
-UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11367;
-UPDATE delivery_tracking 
-SET location = 'Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11368;
-UPDATE delivery_tracking 
-SET location = 'Xã Tân Vĩnh Lộc, Thành phố Hồ Chí Minh, 71821, Việt Nam'
-WHERE id = 11369;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 75/38 Đường D9, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11370;
-UPDATE delivery_tracking 
-SET location = 'Hẻm 284 Phan Huy Ích, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11371;
-UPDATE delivery_tracking 
-SET location = 'Đỗ Mười, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
-WHERE id = 11372;
-UPDATE delivery_tracking 
-SET location = 'Trần Văn Dư, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11373;
-UPDATE delivery_tracking 
-SET location = 'Tân Thới Nhất 17, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11374;
+SET location = 'Đường N2, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 71913, Việt Nam'
+WHERE id = 26133;
 UPDATE delivery_tracking 
 SET location = 'Phan Huy ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11375;
+WHERE id = 26134;
 UPDATE delivery_tracking 
-SET location = 'Phường Thới An, Thành phố Hồ Chí Minh, 71514, Việt Nam'
-WHERE id = 11376;
+SET location = 'Xã Vĩnh Lộc, Thành phố Hồ Chí Minh, 71821, Việt Nam'
+WHERE id = 26135;
 UPDATE delivery_tracking 
-SET location = 'Tân Kỳ Tân Quý, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam'
-WHERE id = 11377;
+SET location = 'Sân bay quốc tế Tân Sơn Nhất, Hẻm 499/6/96 Đường Quang Trung, Phường Gò Vấp, Thành phố Hồ Chí Minh, 72100, Việt Nam'
+WHERE id = 26136;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 936 Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11378;
+SET location = 'Đường CN13, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71913, Việt Nam'
+WHERE id = 26137;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 118 Huỳnh Thiện Lộc, Phường Tân Phú, Thành phố Hồ Chí Minh, 72012, Việt Nam'
-WHERE id = 11379;
+SET location = 'Phạm Văn Bạch, Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26138;
 UPDATE delivery_tracking 
-SET location = 'Pico Plaza, Đường Nội Bộ, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72106, Việt Nam'
-WHERE id = 11380;
+SET location = 'Dệt Thành Công, 8, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26139;
 UPDATE delivery_tracking 
-SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11381;
+SET location = 'Đường Thép Mới, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72106, Việt Nam'
+WHERE id = 26140;
 UPDATE delivery_tracking 
-SET location = 'Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11382;
+SET location = 'Nhà ga Quốc nội T3, Lối vào bãi xe Taxi, Phường Tân Sơn, Thành phố Hồ Chí Minh, 72106, Việt Nam'
+WHERE id = 26141;
 UPDATE delivery_tracking 
-SET location = 'Phường An Phú Đông, Thành phố Hồ Chí Minh, 70000, Việt Nam'
-WHERE id = 11383;
+SET location = '2/41, Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26142;
 UPDATE delivery_tracking 
-SET location = 'Đường CN4, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11384;
+SET location = 'Công Ty CP Kỹ Nghệ Thực Phẩm Vifon Việt Nam, 913, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26143;
 UPDATE delivery_tracking 
-SET location = 'Đường CN4, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11385;
+SET location = 'Mỹ Hào, Phường Tân Hưng, Thành phố Hồ Chí Minh, 72915, Việt Nam'
+WHERE id = 26144;
 UPDATE delivery_tracking 
-SET location = 'Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11386;
+SET location = 'Đường DN6, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
+WHERE id = 26145;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 15/24 Nguyễn Du, Phường Hạnh Thông, Thành phố Hồ Chí Minh, 71400, Việt Nam'
-WHERE id = 11387;
+SET location = 'Tempel, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26146;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 1/12 Tân Thành, Phường Tân Phú, Thành phố Hồ Chí Minh, 72012, Việt Nam'
-WHERE id = 11388;
+SET location = 'Trường THCS Phạm Văn Chiêu, 4, Phạm Văn Chiêu, Phường Thông Tây Hội, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26147;
 UPDATE delivery_tracking 
-SET location = 'Sân Golf Tân Sơn Nhất, Hẻm 687 Tân Sơn, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
-WHERE id = 11389;
+SET location = 'Xuân Thới Thượng 8-4, Xã Bà Điểm, Thành phố Hồ Chí Minh, 71717, Việt Nam'
+WHERE id = 26148;
 UPDATE delivery_tracking 
-SET location = 'Sân Golf Tân Sơn Nhất, Hẻm 687 Tân Sơn, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
-WHERE id = 11390;
+SET location = 'Sân bay quốc tế Tân Sơn Nhất, Nguyễn Sỹ Sách, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26149;
 UPDATE delivery_tracking 
 SET location = 'Trần Văn Dư, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11391;
+WHERE id = 26150;
 UPDATE delivery_tracking 
-SET location = 'Nguyễn Phúc Chu, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11392;
+SET location = 'Hẻm 221/3 Phan Huy Ích, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26151;
 UPDATE delivery_tracking 
-SET location = 'Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11393;
+SET location = 'Tân Thới Nhất 17, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26152;
 UPDATE delivery_tracking 
-SET location = 'Xã Củ Chi, Thành phố Hồ Chí Minh, 71608, Việt Nam'
-WHERE id = 11394;
+SET location = 'Hẻm 936 Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26153;
 UPDATE delivery_tracking 
-SET location = 'Bạch Đằng, Phường Tân Sơn, Thành phố Hồ Chí Minh, 72100, Việt Nam'
-WHERE id = 11395;
+SET location = 'Hẻm 366 Lê Văn Quới, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 72031, Việt Nam'
+WHERE id = 26154;
 UPDATE delivery_tracking 
-SET location = 'Hẻm 20 Trung Lang, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72106, Việt Nam'
-WHERE id = 11396;
+SET location = 'Lê Đức Anh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71914, Việt Nam'
+WHERE id = 26155;
 UPDATE delivery_tracking 
-SET location = 'Đường CN4, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11397;
+SET location = 'Hẻm 942 Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26156;
 UPDATE delivery_tracking 
-SET location = 'VĐ. bảo vệ sân bay, Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
-WHERE id = 11398;
+SET location = 'Phường Bình Trị Đông, Phường Bình Tân, Thành phố Hồ Chí Minh, 73118, Việt Nam'
+WHERE id = 26157;
 UPDATE delivery_tracking 
-SET location = 'Song Hành Quốc Lộ 22, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11399;
+SET location = 'Hẻm 725/57 Đường Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72011, Việt Nam'
+WHERE id = 26158;
+UPDATE delivery_tracking 
+SET location = 'Trung tâm Công nghệ Sinh học TP.HCM, 2374, Đỗ Mười, Phường Trung Mỹ Tây, Thành phố Hồ Chí Minh, 71507, Việt Nam'
+WHERE id = 26159;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 50 Phan Văn Hớn, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26160;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 8 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26161;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 934 Đường Tỉnh lộ 10, Phường Tân Tạo, Thành phố Hồ Chí Minh, 73118, Việt Nam'
+WHERE id = 26162;
+UPDATE delivery_tracking 
+SET location = 'Lê Đức Anh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71914, Việt Nam'
+WHERE id = 26163;
+UPDATE delivery_tracking 
+SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
+WHERE id = 26164;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 149 Nguyễn Duy Cung, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26165;
+UPDATE delivery_tracking 
+SET location = 'Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26166;
+UPDATE delivery_tracking 
+SET location = 'Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26167;
+UPDATE delivery_tracking 
+SET location = 'Xã Xuân Thới Sơn, Thành phố Hồ Chí Minh, 71717, Việt Nam'
+WHERE id = 26168;
+UPDATE delivery_tracking 
+SET location = 'Xã Bà Điểm, Thành phố Hồ Chí Minh, 71717, Việt Nam'
+WHERE id = 26169;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 135/37 Phạm Đăng Giảng, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 71914, Việt Nam'
+WHERE id = 26170;
+UPDATE delivery_tracking 
+SET location = '102/21A, Hẻm 102 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26171;
 UPDATE delivery_tracking 
 SET location = 'Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11400;
+WHERE id = 26172;
 UPDATE delivery_tracking 
-SET location = 'Phường Tam Bình, Thành phố Hồ Chí Minh, 75350, Việt Nam'
-WHERE id = 11401;
+SET location = 'Hẻm 551/151 Lê Văn Khương, Phường Tân Thới Hiệp, Thành phố Hồ Chí Minh, 71514, Việt Nam'
+WHERE id = 26173;
 UPDATE delivery_tracking 
-SET location = 'VĐ. bảo vệ sân bay, Phường Tân Sơn, Thành phố Hồ Chí Minh, 72100, Việt Nam'
-WHERE id = 11402;
+SET location = 'Đường DN6, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
+WHERE id = 26174;
 UPDATE delivery_tracking 
-SET location = 'Tân Thới Nhất 13, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
-WHERE id = 11403;
+SET location = 'Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26175;
+UPDATE delivery_tracking 
+SET location = 'Trường THCS Nguyễn Hữu Thọ, Hẻm 62/2 Đường Lâm Văn Bền, Phường Tân Hưng, Thành phố Hồ Chí Minh, 72911, Việt Nam'
+WHERE id = 26176;
+UPDATE delivery_tracking 
+SET location = 'Đường Tây Lân 3, Xã Bà Điểm, Thành phố Hồ Chí Minh, 71717, Việt Nam'
+WHERE id = 26177;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 162 Nguyễn Duy Cung, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26178;
+UPDATE delivery_tracking 
+SET location = 'Bến Thành Ford, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26179;
+UPDATE delivery_tracking 
+SET location = 'Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26180;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 566/85 Nguyễn Thái Sơn, Phường An Nhơn, Thành phố Hồ Chí Minh, 71400, Việt Nam'
+WHERE id = 26181;
+UPDATE delivery_tracking 
+SET location = 'Bình Tân, Phường Bình Tân, Thành phố Hồ Chí Minh, 71913, Việt Nam'
+WHERE id = 26182;
+UPDATE delivery_tracking 
+SET location = 'Doanh trại Sư đoàn 367, Hoàng Hoa Thám, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26183;
+UPDATE delivery_tracking 
+SET location = 'Trần Văn Dư, Phường Tân Bình, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26184;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 45/25/10 Trần Thái Tông, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26185;
+UPDATE delivery_tracking 
+SET location = 'Đường Trường Chinh, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26186;
+UPDATE delivery_tracking 
+SET location = 'Xã Đông Thạnh, Thành phố Hồ Chí Minh, 71514, Việt Nam'
+WHERE id = 26187;
+UPDATE delivery_tracking 
+SET location = 'Đỗ Thị Lời, Phường Nhiêu Lộc, Thành phố Hồ Chí Minh, 70150, Việt Nam'
+WHERE id = 26188;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 35/6 Nguyễn Hữu Tiến, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 72011, Việt Nam'
+WHERE id = 26189;
+UPDATE delivery_tracking 
+SET location = 'Ga đến T3 (Tầng 2), Phường Tân Sơn, Thành phố Hồ Chí Minh, 70500, Việt Nam'
+WHERE id = 26190;
+UPDATE delivery_tracking 
+SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26191;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 227 Nguyễn Tư Giản, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26192;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 909 Trường Chinh, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26193;
+UPDATE delivery_tracking 
+SET location = 'Dệt Thành Công, 8, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26194;
+UPDATE delivery_tracking 
+SET location = 'Tố Hữu, Khu phố 2, Phường An Khánh, Thủ Đức, Thành phố Hồ Chí Minh, 72806, Việt Nam'
+WHERE id = 26195;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 638/45 Lê Trọng Tấn, Phường Bình Hưng Hòa, Thành phố Hồ Chí Minh, 71914, Việt Nam'
+WHERE id = 26196;
+UPDATE delivery_tracking 
+SET location = 'Tempel, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26197;
+UPDATE delivery_tracking 
+SET location = 'PNJ, 159, Phan Đăng Lưu, Phường Cầu Kiệu, Thành phố Hồ Chí Minh, 72317, Việt Nam'
+WHERE id = 26198;
+UPDATE delivery_tracking 
+SET location = 'Phạm Văn Bạch, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26199;
+UPDATE delivery_tracking 
+SET location = 'Hẻm 8 Phan Huy Ích, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26200;
+UPDATE delivery_tracking 
+SET location = 'Đường Thép Mới, Phường Bảy Hiền, Thành phố Hồ Chí Minh, 72106, Việt Nam'
+WHERE id = 26201;
+UPDATE delivery_tracking 
+SET location = 'Sân Golf Tân Sơn Nhất, Hẻm 717 Tân Sơn, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26202;
+UPDATE delivery_tracking 
+SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71507, Việt Nam'
+WHERE id = 26203;
+UPDATE delivery_tracking 
+SET location = 'Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26204;
+UPDATE delivery_tracking 
+SET location = 'Đường CN4, Khu công nghiệp Tân Bình, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26205;
+UPDATE delivery_tracking 
+SET location = 'Tempel, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam'
+WHERE id = 26206;
+UPDATE delivery_tracking 
+SET location = 'Đỗ Mười, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71500, Việt Nam'
+WHERE id = 26207;

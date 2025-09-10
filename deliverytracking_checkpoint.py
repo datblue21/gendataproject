@@ -51,8 +51,20 @@ def get_address(lat, lng):
     }
 
 def main():
+
     updates = []
-    file_count = 1
+    # Tìm số file lớn nhất hiện có trong OUTPUT_DIR để đặt file_count tiếp theo
+    existing_files = [f for f in os.listdir(OUTPUT_DIR) if f.startswith("update_addresses_") and f.endswith(".sql")]
+    max_count = 0
+    for fname in existing_files:
+        try:
+            num = int(fname.replace("update_addresses_", "").replace(".sql", ""))
+            if num > max_count:
+                max_count = num
+        except Exception:
+            continue
+    file_count = max_count + 1
+
     processed_ids = load_processed_ids()
     log_progress(f"Bắt đầu xử lý. Đã có {len(processed_ids)} địa chỉ được xử lý từ trước.")
 
