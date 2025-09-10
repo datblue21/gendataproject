@@ -83,12 +83,12 @@ async def get_address_async(lat, lng, session, semaphore):
             return result
 
 async def process_row(row, session, semaphore, updates, log_file, log_buffer):
-    addr_id = row["id"]
+    addr_id = int(row["id"])  # Ensure id is integer, no decimal part
     address_info = await get_address_async(row["latitude"], row["longitude"], session, semaphore)
     if address_info:
         sql = f"""UPDATE delivery_tracking 
 SET location = '{(address_info["full"] or "").replace("'", "''")}'
-WHERE id = {addr_id};"""
+WHERE id = {addr_id};"""  # id is integer
         updates.append(sql)
         log_progress(f"✔ id={addr_id} → {address_info['full']}", log_file, log_buffer)
     else:
