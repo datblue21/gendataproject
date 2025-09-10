@@ -5,30 +5,82 @@ import os
 
 INPUT_FILE = "deliverytracking.csv"
 OUTPUT_DIR = "sql_output3"
-LOG_FILE = "process_log.txt"
-
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
-def load_processed_ids():
-    """Đọc danh sách ID đã xử lý từ file log"""
+
+# Đảm bảo các thư mục output và process_log tồn tại
+LOG_DIR = 'process_log'
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(LOG_DIR, exist_ok=True)
+
+def get_log_files():
+    """Trả về danh sách file log process_log/process_log_*.txt đã sắp xếp theo số tăng dần"""
+    logs = [f for f in os.listdir(LOG_DIR) if f.startswith('process_log_') and f.endswith('.txt')]
+    logs_with_num = []
+    for fname in logs:
+        try:
+            num = int(fname.replace('process_log_', '').replace('.txt', ''))
+            logs_with_num.append((num, fname))
+        except Exception:
+            continue
+    logs_with_num.sort()
+    return [os.path.join(LOG_DIR, fname) for _, fname in logs_with_num]
+
+def get_latest_log_file():
+    logs = get_log_files()
+    if logs:
+        return logs[-1], int(logs[-1].split('_')[-1].replace('.txt',''))
+    else:
+        return None, 0
+
+def get_oldest_log_file():
+    logs = get_log_files()
+    if logs:
+        return logs[0]
+    else:
+        return None
+    logs = [f for f in os.listdir(LOG_DIR) if f.startswith('process_log_') and f.endswith('.txt')]
+    max_num = 0
+    for fname in logs:
+        try:
+            num = int(fname.replace('process_log_', '').replace('.txt', ''))
+            if num > max_num:
+                max_num = num
+        except Exception:
+            continue
+    if max_num > 0:
+        return os.path.join(LOG_DIR, f'process_log_{max_num}.txt'), max_num
+    else:
+        return None, 0
+
+def get_next_log_file():
+    _, max_num = get_latest_log_file()
+    return os.path.join(LOG_DIR, f'process_log_{max_num+1}.txt')
+
+
+def load_last_processed_ids(log_file, n=3):
+    """Chỉ lấy 2-3 dòng cuối có id đã xử lý từ file log"""
     processed_ids = set()
-    if os.path.exists(LOG_FILE):
-        with open(LOG_FILE, 'r', encoding='utf-8') as f:
-            for line in f:
-                if "✔ id=" in line:
-                    try:
-                        id_str = line.split("✔ id=")[1].split()[0]
-                        processed_ids.add(int(id_str))
-                    except Exception:
-                        continue
+    if log_file and os.path.exists(log_file):
+        with open(log_file, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        # Lấy các dòng cuối có chứa '✔ id='
+        last_lines = [line for line in lines if '✔ id=' in line][-n:]
+        for line in last_lines:
+            try:
+                id_str = line.split('✔ id=')[1].split()[0]
+                processed_ids.add(int(id_str))
+            except Exception:
+                continue
     return processed_ids
 
-def log_progress(message):
-    """Ghi log với timestamp"""
+
+def log_progress(message, log_file):
+    """Ghi log với timestamp vào file log chỉ định"""
     timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
     log_message = f"[{timestamp}] {message}"
     print(log_message)
-    with open(LOG_FILE, 'a', encoding='utf-8') as f:
+    with open(log_file, 'a', encoding='utf-8') as f:
         f.write(log_message + "\n")
 
 def get_address(lat, lng):
@@ -65,8 +117,27 @@ def main():
             continue
     file_count = max_count + 1
 
-    processed_ids = load_processed_ids()
-    log_progress(f"Bắt đầu xử lý. Đã có {len(processed_ids)} địa chỉ được xử lý từ trước.")
+
+    # Lấy file log mới nhất (số lớn nhất) và tạo file log mới cho lần chạy này
+    latest_log, _ = get_latest_log_file()
+    LOG_FILE = get_next_log_file()
+
+    # Đọc toàn bộ checkpoint từ file log mới nhất
+    def load_all_processed_ids(log_file):
+        processed_ids = set()
+        if log_file and os.path.exists(log_file):
+            with open(log_file, 'r', encoding='utf-8') as f:
+                for line in f:
+                    if '✔ id=' in line:
+                        try:
+                            id_str = line.split('✔ id=')[1].split()[0]
+                            processed_ids.add(int(id_str))
+                        except Exception:
+                            continue
+        return processed_ids
+
+    processed_ids = load_all_processed_ids(latest_log)
+    log_progress(f"Bắt đầu xử lý. Đã có {len(processed_ids)} địa chỉ được xử lý từ trước.", LOG_FILE)
 
     with open(INPUT_FILE, newline='', encoding="utf-8") as csvfile:
         reader = csv.DictReader(csvfile)
@@ -83,9 +154,9 @@ def main():
 SET location = '{(address_info["full"] or "").replace("'", "''")}'
 WHERE id = {addr_id};"""
                 updates.append(sql)
-                log_progress(f"✔ id={addr_id} → {address_info['full']}")
+                log_progress(f"✔ id={addr_id} → {address_info['full']}", LOG_FILE)
             else:
-                log_progress(f"⚠ Không tìm thấy địa chỉ cho id={addr_id}")
+                log_progress(f"⚠ Không tìm thấy địa chỉ cho id={addr_id}", LOG_FILE)
 
             time.sleep(1)
 
@@ -93,7 +164,7 @@ WHERE id = {addr_id};"""
                 output_file = os.path.join(OUTPUT_DIR, f"update_addresses_{file_count}.sql")
                 with open(output_file, "w", encoding="utf-8") as f:
                     f.write("\n".join(updates))
-                log_progress(f"\n✅ Đã tạo {output_file} ({len(updates)} lệnh UPDATE)")
+                log_progress(f"\n✅ Đã tạo {output_file} ({len(updates)} lệnh UPDATE)", LOG_FILE)
                 file_count += 1
                 updates = []
 
@@ -101,9 +172,9 @@ WHERE id = {addr_id};"""
         output_file = os.path.join(OUTPUT_DIR, f"update_addresses_{file_count}.sql")
         with open(output_file, "w", encoding="utf-8") as f:
             f.write("\n".join(updates))
-        log_progress(f"\n✅ Đã tạo {output_file} ({len(updates)} lệnh UPDATE)")
+        log_progress(f"\n✅ Đã tạo {output_file} ({len(updates)} lệnh UPDATE)", LOG_FILE)
 
-    log_progress("Hoàn thành xử lý")
+    log_progress("Hoàn thành xử lý", LOG_FILE)
 
 if __name__ == "__main__":
     main()
