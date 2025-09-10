@@ -15700,3 +15700,16 @@
 [2025-09-10 17:39:02] ✔ id=46800 → Xã Bà Điểm, Thành phố Hồ Chí Minh, 71507, Việt Nam
 [2025-09-10 17:39:04] ✔ id=46801 → Hẻm 47 Nguyễn Phúc Chu, Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam
 [2025-09-10 17:39:06] ✔ id=46802 → Phường Tân Sơn, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:07] ✔ id=46803 → Xã Hóc Môn, Thành phố Hồ Chí Minh, 71717, Việt Nam
+[2025-09-10 17:39:09] ✔ id=46804 → 999, Hẻm 1001 Lê Đức Thọ, Phường An Hội Đông, Thành phố Hồ Chí Minh, 71500, Việt Nam
+[2025-09-10 17:39:10] ✔ id=46805 → Đường D2, Phường Tân Sơn Nhì, Thành phố Hồ Chí Minh, 72011, Việt Nam
+[2025-09-10 17:39:12] ✔ id=46806 → Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:14] ✔ id=46807 → Dệt Thành Công, 8, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:15] 
+✅ Đã tạo sql_output3/update_addresses_354.sql (100 lệnh UPDATE)
+[2025-09-10 17:39:15] ✔ id=46808 → Hẻm 448B Đường Nguyễn Tất Thành, Phường Xóm Chiếu, Thành phố Hồ Chí Minh, 72800, Việt Nam
+[2025-09-10 17:39:17] ✔ id=46809 → Hẻm 84/73 Bùi Quang Là, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:19] ✔ id=46810 → Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:20] ✔ id=46811 → Song Hành Quốc Lộ 22, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:22] ✔ id=46812 → Tempel, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
+[2025-09-10 17:39:23] ✔ id=46813 → Phường An Phú Đông, Thành phố Hồ Chí Minh, 71400, Việt Nam
