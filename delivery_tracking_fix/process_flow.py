@@ -4,7 +4,7 @@ import os
 
 # Đường dẫn các file script
 CLEAN_SCRIPT = "clean_line1.py"
-DELIVERY_SCRIPT = "deliverytracking_checkpoint1.py"
+DELIVERY_SCRIPT = "deliverytracking_checkpoint.py"
 
 # Chạy file clean_line1.py
 print("--- Chạy clean_line1.py ---")
