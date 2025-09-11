@@ -123,6 +123,8 @@ def main():
     latest_log, _ = get_latest_log_file()
     LOG_FILE = get_next_log_file()
     last_id = load_last_processed_ids(latest_log, n=20)
+    # last_id = 85800
+
     log_buffer = []
     log_progress(f"Bắt đầu xử lý. Đã có id cuối cùng: {last_id}", LOG_FILE, log_buffer)
 

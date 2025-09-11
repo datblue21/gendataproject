@@ -4,12 +4,12 @@ import requests
 import os
 
 INPUT_FILE = "deliverytracking.csv"
-OUTPUT_DIR = "sql_output3"
+OUTPUT_DIR = "sql_output4"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 
 # Đảm bảo các thư mục output và process_log tồn tại
-LOG_DIR = 'process_log'
+LOG_DIR = 'process_log1'
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 
@@ -140,7 +140,8 @@ def main():
 
     # processed_ids = load_all_processed_ids(latest_log)
 
-    last_id = load_last_processed_ids(latest_log, n=20)  # n tuỳ ý, lấy 20 dòng cuối để chắc chắn
+    # last_id = load_last_processed_ids(latest_log, n=20)  # n tuỳ ý, lấy 20 dòng cuối để chắc chắn
+    last_id = 85800
     log_progress(f"Bắt đầu xử lý. Đã có id cuối cùng: {last_id}", LOG_FILE)
 
     with open(INPUT_FILE, newline='', encoding="utf-8") as csvfile:
@@ -149,6 +150,9 @@ def main():
             if last_id is not None and int(row["id"]) <= last_id:
                 continue
             addr_id = row["id"]
+            if int(addr_id) > 90000:
+                log_progress(f"Đã đạt đến id=90000, dừng xử lý", LOG_FILE)
+                break
             lat = row["latitude"]
             lng = row["longitude"]
 
