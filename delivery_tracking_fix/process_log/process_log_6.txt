@@ -15707,9 +15707,3 @@
 [2025-09-10 17:39:14] ✔ id=46807 → Dệt Thành Công, 8, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
 [2025-09-10 17:39:15] 
 ✅ Đã tạo sql_output3/update_addresses_354.sql (100 lệnh UPDATE)
-[2025-09-10 17:39:15] ✔ id=46808 → Hẻm 448B Đường Nguyễn Tất Thành, Phường Xóm Chiếu, Thành phố Hồ Chí Minh, 72800, Việt Nam
-[2025-09-10 17:39:17] ✔ id=46809 → Hẻm 84/73 Bùi Quang Là, Phường An Hội Tây, Thành phố Hồ Chí Minh, 71509, Việt Nam
-[2025-09-10 17:39:19] ✔ id=46810 → Trường Chinh, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
-[2025-09-10 17:39:20] ✔ id=46811 → Song Hành Quốc Lộ 22, Phường Đông Hưng Thuận, Thành phố Hồ Chí Minh, 71509, Việt Nam
-[2025-09-10 17:39:22] ✔ id=46812 → Tempel, Trường Chinh, Phường Tây Thạnh, Thành phố Hồ Chí Minh, 71509, Việt Nam
-[2025-09-10 17:39:23] ✔ id=46813 → Phường An Phú Đông, Thành phố Hồ Chí Minh, 71400, Việt Nam
